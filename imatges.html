@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Solución de Problemas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="drawer" id="drawer">
+        <button class="close-btn" onclick="closeDrawer()">×</button>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="pagina1.html">Problema 1</a></li>
+            <li><a href="pagina2.html">Problema 2</a></li>
+            <li><a href="SolucionFinal.html">SolucionFinal</a></li>
+    
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <button class="menu-btn" onclick="openDrawer()">☰</button>
+            <button class="back-btn" onclick="history.back()">← Volver</button>
+            <h1>Solución de Problemas</h1>
+        </header>
+        <main>
+            <p>Això és un paràgraf que descriu el que es veu a la imatge 2</p>
+
+
+
+            
+            <div class="gallery">
+                <div class="gallery-item">
+                    <img src="images/crosshair.png" alt="Descripción de la imagen 1" class="responsive-img">
+                    <p>Això és un paràgraf que descriu el que es veu a la imatge 1</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/crosshair.png" alt="Descripción de la imagen 2" class="responsive-img">
+                    <p>Això és un paràgraf que descriu el que es veu a la imatge 2</p>
+                </div>
+                <div class="gallery-item">
+                    <img src="images/crosshair.png" alt="Descripción de la imagen 3" class="responsive-img">
+                    <p>Això és un paràgraf que descriu el que es veu a la imatge 3</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

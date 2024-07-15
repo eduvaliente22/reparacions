@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reparacions</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="drawer" id="drawer">
+        <button class="close-btn" onclick="closeDrawer()">×</button>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="Problema1.html">Problema 1</a></li>
+            <li><a href="pagina2.html">Problema 2</a></li>
+            <li><a href="SolucionFinal.html">SolucionFinal</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <header>
+            <button class="menu-btn" onclick="openDrawer()">☰</button>
+            <h1>Problemes varis</h1>
+        </header>
+        <main>
+            <div class="button-container">
+            <button onclick="location.href='Problema1.html'">Problema 1</button>
+            <button onclick="location.href='Problema2.html'">Problema 2</button>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
